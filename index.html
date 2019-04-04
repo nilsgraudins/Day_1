@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Hello World!</title>
+</head>
+
+<body>
+    <h1><u>Hello</u> world!</h1>
+    <h2>Hello world!</h2>
+    <h3>Hello <del>world</del>!</h3>
+    <h4>Hello world!</h4>
+    <h5>Hello world!</h5>
+    <h6>Hello world!</h6>
+    <p><b>Lorem</b> <i>ipsum</i> dolor.</p>
+    <p>Lorem <strong>ipsum</strong> dolor.</p>
+    <!-- Lorem ipsum dolor -->
+    <!-- line brake neizmanto <br>-->
+    <p>Lorem <sup>ipsum</sup> dolor sit, amet <span>consectetur</span> adipisicing el</p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa dicta perferendis porro quasi mollitia ipsam
+        necessitatibus nemo at dolores, laudantium, nulla explicabo assumenda? Velit, sapiente temporibus mollitia quam
+        pariatur aliquam?</p>
+    <img src="https://i.ytimg.com/vi/3hOKUfOSDQ4/hqdefault.jpg" alt="Amazing cat" width="150">
+    <!-- bildei maina vienu parametru, lai butu logisks izmers -->
+
+
+    <p>
+        <a href="sub_folder/page2.html">Link</a>
+    </p>
+
+    <div>foo foo</div>
+    <div>foo</div>
+
+    <span>bar</span>
+    <span>bar</span>
+    <p>snake_case</p>
+    <p>camelCase</p>
+    <p>PascalCase</p>
+    <p>kebab-case</p>
+    <ol start="1" type="a">
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+        <li>4</li>
+    </ol>
+    <ul>
+        <li>1</li>
+        <li>
+            <ul>
+                <li>1</li>
+                <li>2</li>
+                <li>3</li>
+                <li>4</li>
+            </ul>
+        </li>
+        <li>2</li>
+        <li>3</li>
+    </ul>
+    <dl>
+        <dt>header</dt>
+        <dd>item 1</dd>
+        <dd>item 1</dd>
+        <dt>header 2</dt>
+        <dd>item 1</dd>
+        <dd>item 1</dd>
+
+    </dl>
+
+    <table border="1">
+        <tr>
+            <td>Item 1</td>
+            <td>Item 2</td>
+            <td>Item 3</td>
+            <td>Item 4</td>
+            <td>Item 5</td>
+        </tr>
+        <tr>
+            <td>Item 1</td>
+            <td>Item 2</td>
+            <td colspan="2">Item 3</td>
+            <td>Item 4</td>
+            <!-- ja vajag 3x3 tabulu, tad viena raksta gan rowspan, gan colspan -->
+        </tr>
+        <tr>
+            <td>Item 1</td>
+            <td rowspan="2">Item 2</td>
+            <td>Item 3</td>
+            <td>Item 4</td>
+            <td>Item 5</td>
+        </tr>
+        <tr>
+            <td>Item 1</td>
+            <td>Item 2</td>
+            <td>Item 3</td>
+            <td>Item 4</td>
+
+        </tr>
+        <tr>
+            <td>Item 1</td>
+            <td>Item 2</td>
+            <td>Item 3</td>
+            <td>Item 4</td>
+            <td>Item 5</td>
+        </tr>
+    </table>
+    <form action="" method="POST">
+        <div>
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" value="Foo" placeholder="Username"> readonly vai disabled
+        </div>
+        <div>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" placeholder="Password">
+        </div>
+        <div>
+            <!-- <input type="hidden" name="agree" value="0"> -->
+            <input type="checkbox" id="agree" checked>
+            <label for="agree">Agree with terms and conditions</label>
+        </div>
+        <div>
+            <input type="radio" name="something">
+            <label>Radio 1</label>
+        </div>
+        <div>
+            <input type="radio" name="something">
+            <label>Radio 2</label>
+        </div>
+        <div>
+            <input type="radio" name="something">
+            <label>Radio 3</label>
+        </div>
+        <div>
+            <label for="country">Country</label>
+            <select name="country" id="country" multiple>
+                <optgroup label="Baltija">
+                    <option value="1">Latvija</option>
+                    <option value="2">Lietuva</option>
+                </optgroup>
+                <option value="3" selected>Igaunija</option>
+                <option value="4">Zviedrija</option>
+
+            </select>
+        </div>
+        <div>
+            <label>Long text</label>
+            <textarea></textarea>
+        </div>
+        <div>
+            <input type="submit" value="Log in">
+        </div>
+
+    </form>
+
+</body>
+
+</html>
